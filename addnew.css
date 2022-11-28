@@ -1,0 +1,33 @@
+.background{
+    background-color: #3C4953;
+    width: 532px;
+    height: 2598px;
+}
+.top{
+    display: flex;
+}
+#button{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+.form{
+   padding: 25px;
+   max-width: 150px;
+   margin: auto;
+}
+#upload-button{
+    background-color: #30EFA6;
+    border-radius: 0.1cm;
+    border-color: #30EFA6;
+}
+
+#text{
+    color: white;
+    max-width: 532px;
+    margin: auto;
+}
+#titulli{
+    margin-bottom: 0;
+    color: #E2E2E2;
+}
