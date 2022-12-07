@@ -1,99 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta charset="UTF-8"/>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
 
-        <link rel="stylesheet" href="./styles/reset.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./styles/index.css">
-    </head>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
 
-    <body>
-
-
-        <div class="wrapper">
-            <div class="add_button">
-                <span>Add New</span>
-                <div class="add_button__circle">
-                    <img src="./assets/images/Union.jpg" alt="Add New Icon"/>
-                </div>
-            </div>
-            <section class="products-section">
-                <div class="products-section-item">
-                    <div class="products-section-item__thumb">
-                        <img src="./assets/images/Cover image.jpg"
-                        class="products-section-item-thumb__img"/>
-                    </div>
-                    <div class="products-section-item__content">
-                        <div class="products-section-item__headings">
-                            <h3 class="products-section-item__title">
-                                 Morbi habitasse fells nulla arcu, morbi ultricies
-                            </h3>
-
-                            <p class="products-section-item__description">
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                 Praesentium quibusdam fugit ea impedit debitis laborum autem quia rem ducimus inventore illo enim,
-                                 obcaecati similique aspernatur quasi vel eligendi quam? Iusto.
-                            </p>
-                        </div>
-
-                        <span class="products-section-item__price">14.50&euro;</span>
-                    </div>
-                </div>
-            </section>
-
-            <section class="products-section">
-                <div class="products-section-item">
-                    <div class="products-section-item__thumb">
-                        <img src="./assets/images/Cover image1.jpg"
-                        class="products-section-item-thumb__img"/>
-                    </div>
-                    <div class="products-section-item__content">
-                        <div class="products-section-item__headings">
-                            <h3 class="products-section-item__title">
-                                 Morbi habitasse fells nulla arcu, morbi ultricies
-                            </h3>
-
-                            <p class="products-section-item__description">
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                 Praesentium quibusdam fugit ea impedit debitis laborum autem quia rem ducimus inventore illo enim,
-                                 obcaecati similique aspernatur quasi vel eligendi quam? Iusto.
-                            </p>
-                        </div>
-
-                        <span class="products-section-item__price">14.50&euro;</span>
-                    </div>
-                </div>
-            </section>
-            <div class="add_button">
-                <span>Add New</span>
-                <div class="add_button__circle">
-                    <img src="./assets/images/Union.jpg" alt="Add New Icon"/>
-                </div>
-            </div>
+  <body>
+    <div class="wrapper">
+      <div class="add_button">
+        <span>Add New</span>
+        <div class="add_button__circle">
+          <img src="./assets/images/Union.jpg" alt="Add New Icon" />
         </div>
+      </div>
+      <section class="products-section" id="products-section">
+        <div class="products-section-item">
+          <div class="products-section-item__thumb">
+            <img
+              src="./assets/images/Cover image.jpg"
+              class="products-section-item-thumb__img"
+            />
+          </div>
+          <div class="products-section-item__content">
+            <div class="products-section-item__headings">
+              <h3 class="products-section-item__title">
+                Morbi habitasse fells nulla arcu, morbi ultricies
+              </h3>
 
-        <aside class="add_modal" id="add-modal">
-            <div class="add_modal__wrapper">
-                <span id="close-modal" class="add_modal__close">
-                    <img src="./assets/images/Group 4.jpg"/>
-                </span>
-                <form class="add_modal__form" id="add-form">
-                    <h5>Add New</h5>
-
-                    <input type="text" name="title" placeholder="Title"/>
-                    <input type="text" name="price" placeholder="Price"/>
-                    <textarea id="description" name="description" placeholder="Description"></textarea>
-                    <button type="submit">Add</button>
-                </form>
+              <p class="products-section-item__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium quibusdam fugit ea impedit debitis laborum autem
+                quia rem ducimus inventore illo enim, obcaecati similique
+                aspernatur quasi vel eligendi quam? Iusto.
+              </p>
             </div>
-        </aside>
 
-        <script src="./js/index.js"></script>
-    </body>
+            <span class="products-section-item__price">14.50&euro;</span>
+          </div>
+        </div>
+      </section>
 
+      <section class="products-section" id="products-section">
+        <div class="products-section-item">
+          <div class="products-section-item__thumb">
+            <img
+              src="./assets/images/Cover image1.jpg"
+              class="products-section-item-thumb__img"
+            />
+          </div>
+          <div class="products-section-item__content">
+            <div class="products-section-item__headings">
+              <h3 class="products-section-item__title">
+                Morbi habitasse fells nulla arcu, morbi ultricies
+              </h3>
+
+              <p class="products-section-item__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium quibusdam fugit ea impedit debitis laborum autem
+                quia rem ducimus inventore illo enim, obcaecati similique
+                aspernatur quasi vel eligendi quam? Iusto.
+              </p>
+            </div>
+
+            <span class="products-section-item__price">14.50&euro;</span>
+          </div>
+        </div>
+      </section>
+      <div class="add_button">
+        <span>Add New</span>
+        <div class="add_button__circle">
+          <img src="./assets/images/Union.jpg" alt="Add New Icon" />
+        </div>
+      </div>
+    </div>
+
+    <aside class="add_modal" id="add-modal">
+      <div class="add_modal__wrapper">
+        <span id="close-modal" class="add_modal__close">
+          <img src="./assets/images/Group 4.jpg" />
+        </span>
+        <form class="add_modal__form" id="add-form">
+          <h5>Add New</h5>
+
+          <input type="text" name="title" placeholder="Title" />
+          <input type="text" name="price" placeholder="Price" />
+          <textarea
+            id="description"
+            name="description"
+            placeholder="Description"
+          ></textarea>
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </aside>
+
+    <script src="./js/index.js"></script>
+  </body>
 </html>
